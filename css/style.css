@@ -1,0 +1,156 @@
+/* lien font google tape: google fonts 1er lien  */
+
+@font-face {
+    font-family:Didact Gothic ;
+    src: url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+}
+
+header{
+background: url('../images/header-bg.jpg') white no-repeat;
+background-size: cover;
+   margin: 0px;
+   padding: 20px;
+   height: 500px;
+   width: 100%;
+
+}
+/* #logo: appel de l'id    */
+ #logo{
+font-family:'Didact Gothic', Arial, Helvetica, sans-serif ;
+/* la proprieté au font entre '' */
+
+margin-top: 50px;
+margin-left: 50px;
+position: absolute;
+left: 0;
+}
+#logo h2{
+    font-family:'Didact Gothic', Arial, Helvetica, sans-serif ;
+    font-size: 40px;
+}
+nav{
+    right: 0;
+    position: absolute;
+    margin-top: 70px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 15px;
+}
+nav a:hover{
+    background-color: rgb(252, 92, 230);
+    padding: 15px;
+    border-radius: 15px;
+}
+nav a:active{
+    background-color: rgb(105, 92, 104);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.c1 {
+margin-top: 250px;
+text-align: center;
+font-size : 30px;
+}
+.c1 button{
+width: 150PX;
+height :  40px;
+margin-top: 10px;
+background-color: rgb(25, 25, 234);
+border : none;
+border-radius: 15px;
+color:white;
+
+}
+
+.c2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size : 15px;
+}
+
+#s1 {
+
+
+    background-color: white;
+    color: black;
+}
+ .c3 article{
+    display: inline-block;
+    margin-left: 150px;
+   
+ }
+
+ article{
+    text-align: center;
+ }
+ article button{
+margin-top: 10px;
+border : none;
+border-radius: 15px;
+color:white;
+width: 150PX;
+height :  40px;
+background-color: rgb(25, 25, 234);
+margin-bottom:10px 
+}
+#s2{
+background-color: rgb(83, 83, 173);
+height: 300px;
+}
+
+.c4{
+padding-top: 60px;
+    text-align: center;
+
+
+}
+.c4 button{
+
+
+    margin-top: 10px;
+    border : none;
+    border-radius: 15px;
+    color:rgb(95, 95, 173);
+    width: 150PX;
+    height :  40px;
+    background-color: white;
+    margin-bottom:10px 
+    }
+
+.c4 h4{
+font-size: 25px;
+
+
+} 
+
+footer{
+    height:100px;
+}
+
+footer p {
+    margin-top: 50px;
+    text-align: center;
+}
+
